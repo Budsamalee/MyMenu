@@ -68,9 +68,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         // ========== Custom list view =======
-        int[] resId = { R.drawable.one, R.drawable.two, R.drawable.three  };
+        int[] resId = { R.drawable.one, R.drawable.two, R.drawable.three, R.drawable.four  };
 
-        String[] list = { "one", "Barret Wallace", "Cait Sith"  };
+        String[] list = { "Ariel", "Belle", "Cinderella" ,"Mulan" };
 
 
         CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), list, resId);
